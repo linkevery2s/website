@@ -1938,10 +1938,20 @@ input, select, textarea {
 				background: #70aecd;
 				color: #fff;
 			}
-
+			
 				.icon.circle.fa-twitter:hover {
 					background: #7fb7d2;
 				}
+
+			.icon.circle.fa-youtube {
+				background: #ffffff;
+				color: #FF0000;
+			}
+			
+			.icon.circle.fa-youtube:hover {
+				background: #EEEEEE;
+
+			}
 
 			.icon.circle.fa-facebook-f {
 				background: #7490c3;
