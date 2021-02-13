@@ -1953,6 +1953,22 @@ input, select, textarea {
 
 			}
 
+.icon.circle.fa-instagram {
+				background: #000000;
+				color: #ffffff;
+			}
+
+.icon.circle.fa-instagram:hover {
+				background: #ffffff;
+				color: #000000;
+			}
+
+			
+			.icon.circle.fa-youtube:hover {
+				background: #EEEEEE;
+
+			}
+
 			.icon.circle.fa-facebook-f {
 				background: #7490c3;
 				color: #fff;
