@@ -29,12 +29,12 @@ var map = L.map('map', {
     center: [32.517, 130.853],
     timeDimension: true,
     timeDimensionOptions: {
-    period: "PT30M"
+    period: "PT20M"
     }
 });
 
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'}).addTo(map);
+L.tileLayer('http://www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'}).addTo(map);
 
 
 
@@ -44,7 +44,7 @@ var geojson = L.timeDimension.layer.geoJson(timeSeriesLayer);
 
 geojson.addTo(map);
 
-L.control.timeDimension({loopButton: true, maxSpeed: 20, minSpeed: 10 , timeZones:["Local","UTC"]}).addTo(map);
+L.control.timeDimension({loopButton: true, maxSpeed: 20, minSpeed: 1 , timeZones:["Local","UTC"]}).addTo(map);
 
 function sty(feature) {
 	return feature.properties && feature.properties.style;
@@ -54,11 +54,11 @@ function sty(feature) {
 function iro(feature, latlng) {
 	return L.circleMarker(latlng, {
 	radius: 10,
-	fillColor: "#2EFE2E",
+	fillColor: "#c9171e",
 	color: "#000",
 	weight: 1,
 	opacity: 1,
-	fillOpacity: 0.8
+	fillOpacity: 0.6
 });
 
 
