@@ -1954,7 +1954,7 @@ input, select, textarea {
 			}
 
 .icon.circle.fa-instagram {
-				background: #000000;
+				background:radial-gradient(at 20% 120%,orange, #f15a4d 25%, #f13f79 55%, #9933ff 100%) no-repeat;
 				color: #ffffff;
 			}
 
