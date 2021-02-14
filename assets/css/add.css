@@ -3,3 +3,12 @@
 	border-radius: 50%;
 
 }
+
+#pri{
+	background: #c9171e;
+	color: #ffffff;
+}
+
+#pri:hover{
+	background: #d9333f;
+}
