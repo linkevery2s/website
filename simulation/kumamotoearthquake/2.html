@@ -44,7 +44,7 @@ var geojson = L.timeDimension.layer.geoJson(timeSeriesLayer);
 
 geojson.addTo(map);
 
-L.control.timeDimension({loopButton: true, maxSpeed: 20, minSpeed: 1 , timeZones:["Local","UTC"]}).addTo(map);
+L.control.timeDimension({loopButton: true, maxSpeed: 30, minSpeed: 1 , timeZones:["Local","UTC"]}).addTo(map);
 
 function sty(feature) {
 	return feature.properties && feature.properties.style;
