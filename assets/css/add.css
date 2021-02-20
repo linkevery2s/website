@@ -53,3 +53,44 @@
 	text-decoration: none !important;
 	border: none !important;
 }
+
+#link_none a{
+	text-decoration: none !important;
+	border: none !important;
+}
+
+/*.icon img{
+
+			-moz-transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+			border: 0;
+			border-radius: 100%;
+			
+			font-size: 1.25em;
+			height: 1.8em;
+			left: 0;
+			line-height: 1.8em;
+			text-align: center;
+			text-decoration: none;
+			top: 0;
+			width: 1.8em;
+
+}
+
+#icon_note{
+	display: inline-block;
+	line-height: 1.8em;
+}
+*/
+
+#note a{
+	text-decoration: none !important;
+	border: none !important;
+}
+
+.buttons #border_none a{
+	text-decoration: none !important;
+	border: none !important;
+}
