@@ -10,14 +10,14 @@
 		<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="description" content=''>
+    	<meta name="description" content='仁志＠防災アプリ開発者のウェブサイトへようこそ'>
 		<meta property="og:title" content="仁志ウェブサイト" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://hitoshi2s.netlify.app/index.html" />
     	<meta property="og:image" content="https://hitoshi2s.netlify.app/images/home.jpg" />
     	<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:title" content="仁志ウェブサイト" />
-		<meta name="twitter:description" content='' />
+		<meta name="twitter:description" content='仁志＠防災アプリ開発者のウェブサイトへようこそ' />
 		<meta name="twitter:image" content="https://hitoshi2s.netlify.app/images/home.jpg" />
     	<meta name="author" content="仁志">
 		<meta name="keywords" content="">
@@ -26,6 +26,12 @@
 	    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     	<link rel="shortcut icon" href="images/apple-touch-icon.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="manifest" href="./manifest.json">
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js').then(function() { console.log('Service Worker Registered'); });
+    }
+    </script>
 	</head>
 	<body class="index is-preload">
 		<div id="page-wrapper">
